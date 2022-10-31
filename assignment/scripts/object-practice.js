@@ -45,6 +45,10 @@ console.log(me.favThreeFoods[me.favThreeFoods.length - 1]);
   - Console.log your updated shoe count. 
 */
 
+console.log(me.shoeCount);
+//add 1
+me.shoeCount++; // make sure to not use 'let' here, as 'me' is already declared
+console.log(me.shoeCount); // log shoeCount updated total (should be 26)
 
 
 /* 5. Add a new property to an existing object.
@@ -53,3 +57,6 @@ console.log(me.favThreeFoods[me.favThreeFoods.length - 1]);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+me.favoriteColor = 'blue';
+console.log(me);
